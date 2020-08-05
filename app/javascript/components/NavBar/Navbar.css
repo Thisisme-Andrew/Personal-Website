@@ -1,0 +1,50 @@
+.NavbarItems {
+    text-align: center;
+}
+.LogoImage {
+    float: left;
+    position: absolute;
+}
+.openingP {
+    text-align: center;
+}
+.title {
+    text-align: center;
+}
+.Me {
+    float: left;
+    padding: 30px;
+    width: 230px;
+    height: 345px;
+}
+.bioH2 { 
+    font-size: 20;
+    text-align: center;
+    padding-top: 30px;
+}
+.bioP {
+    font-size: 12;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+  
+li {
+    float: left;
+    transition: 0.3s;
+}
+.li:hover {opacity: 0.6}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
