@@ -7990,3 +7990,11 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 137ms (Views: 132.9ms)
 
 
+Started GET "/" for ::1 at 2020-08-11 16:58:39 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/index.html.erb within layouts/application (103.3ms)
+Completed 200 OK in 14817ms (Views: 12214.2ms)
+
+
