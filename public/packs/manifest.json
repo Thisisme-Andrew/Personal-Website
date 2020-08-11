@@ -12,10 +12,10 @@
     },
     "index": {
       "js": [
-        "/packs/js/index-9a957888a5cad579ddd6.js"
+        "/packs/js/index-b196ce2727f26b2c2e28.js"
       ],
       "js.map": [
-        "/packs/js/index-9a957888a5cad579ddd6.js.map"
+        "/packs/js/index-b196ce2727f26b2c2e28.js.map"
       ]
     },
     "style": {
@@ -27,10 +27,12 @@
       ]
     }
   },
-  "index.js": "/packs/js/index-9a957888a5cad579ddd6.js",
-  "index.js.map": "/packs/js/index-9a957888a5cad579ddd6.js.map",
+  "index.js": "/packs/js/index-b196ce2727f26b2c2e28.js",
+  "index.js.map": "/packs/js/index-b196ce2727f26b2c2e28.js.map",
   "media/images/Me.JPG": "/packs/media/images/Me-19aed4a7.JPG",
+  "media/images/img1.jpg": "/packs/media/images/img1-6ebd5c6d.jpg",
   "media/images/logo.jpg": "/packs/media/images/logo-117ad09f.jpg",
+  "media/images/logoPercieve.png": "/packs/media/images/logoPercieve-9ae74a47.png",
   "style.js": "/packs/js/style-9b6b5a0ab879bb8846d6.js",
   "style.js.map": "/packs/js/style-9b6b5a0ab879bb8846d6.js.map"
 }

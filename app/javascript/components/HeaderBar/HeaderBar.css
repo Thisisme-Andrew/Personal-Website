@@ -1,0 +1,18 @@
+.NavbarItems {
+    text-align: center;
+}
+.LogoImage {
+    text-align: center;
+    /* float: center; */
+    position: relative;
+    padding: 5px;
+}
+.openingP {
+    text-align: center;
+}
+.title {
+    text-align: center;
+}
+.Navbar-logo {
+    text-align: center;
+}

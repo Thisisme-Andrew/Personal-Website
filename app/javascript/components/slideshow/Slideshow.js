@@ -9,15 +9,13 @@ class Slideshow extends React.Component {
             <div>
                 <div className="slideshow-container">
                     <Slide/>
-                    <Slide/>
-                    <Slide/>
                 </div>
                 <br/>
-                <div style="text-align:center">
+                {/* <div style="text-align:center">
                     <span class="dot"></span> 
                     <span class="dot"></span> 
                     <span class="dot"></span> 
-                </div>
+                </div> */}
             </div>
         )
     }

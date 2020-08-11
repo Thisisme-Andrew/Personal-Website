@@ -1,10 +1,13 @@
 import React from 'react'
+import img1 from '../../../assets/images/img1.jpg'
+import './Slide.css'
 
 const Slide = () => {
     return(                     
-        <div className="mySlides fade">
-            <div className="numbertext">1 / 3</div>
-            <img src="img_nature_wide.jpg" style="width:100%"/>
+        <div className="SlideContainer">
+            <div className="Image">
+                <img src={img1} style={{"width" : "100%", "height" : "700px"}}/>
+            </div>
             <div className="text">Caption Text</div>
         </div>
     )

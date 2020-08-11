@@ -1,0 +1,17 @@
+.Profile{
+    padding: 15px;
+    width: auto;
+    height: auto;
+}
+.Me {
+    text-align: center;
+    width: 50%;
+    height: auto;
+}
+.bioP {
+    text-align: center;
+    /* padding: 20px; */
+}
+.bioH2 {
+    vertical-align: middle;
+}
