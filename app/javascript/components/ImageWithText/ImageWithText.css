@@ -2,16 +2,17 @@
     padding: 15px;
     width: auto;
     height: auto;
+    overflow: hidden;
 }
-.Me {
-    text-align: center;
+.image {
+    /* text-align: center; */
     width: 50%;
     height: auto;
+    float: left;
 }
-.bioP {
+
+.text {
     text-align: center;
-    /* padding: 20px; */
-}
-.bioH2 {
-    vertical-align: middle;
+    top: 50%;
+
 }

@@ -8085,3 +8085,831 @@ Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d
 Completed 200 OK in 4261ms (Views: 4258.8ms)
 
 
+Started GET "/" for ::1 at 2020-08-11 21:20:47 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] 
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+[Webpacker] Hash: 3b42ceda2b96fe38b16e
+Version: webpack 4.44.1
+Time: 6583ms
+Built at: 08/11/2020 9:21:01 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-e673f83c88221bfc771b.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-e673f83c88221bfc771b.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-e673f83c88221bfc771b.js js/index-e673f83c88221bfc771b.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (12315.0ms)
+Completed 200 OK in 27584ms (Views: 25437.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:01:41 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/index.html.erb within layouts/application (50.7ms)
+Completed 200 OK in 100ms (Views: 98.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:03:01 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 9019f54a1e1363feeef1
+Version: webpack 4.44.1
+Time: 5064ms
+Built at: 08/11/2020 10:03:11 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-523016315d33441045d4.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-523016315d33441045d4.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-523016315d33441045d4.js js/index-523016315d33441045d4.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10021.8ms)
+Completed 200 OK in 10084ms (Views: 10079.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:03:46 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: de7e214b59ca52f34903
+Version: webpack 4.44.1
+Time: 5047ms
+Built at: 08/11/2020 10:03:56 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-416460068a5a8d98de95.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-416460068a5a8d98de95.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-416460068a5a8d98de95.js js/index-416460068a5a8d98de95.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (9967.2ms)
+Completed 200 OK in 10044ms (Views: 10039.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:04:34 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: dba8bf759175d60c5145
+Version: webpack 4.44.1
+Time: 5046ms
+Built at: 08/11/2020 10:04:44 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-290bfc4717cd687ed79c.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-290bfc4717cd687ed79c.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-290bfc4717cd687ed79c.js js/index-290bfc4717cd687ed79c.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10154.2ms)
+Completed 200 OK in 10239ms (Views: 10234.3ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:07:04 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 9cf2f5c6a495388bef5a
+Version: webpack 4.44.1
+Time: 5518ms
+Built at: 08/11/2020 10:07:15 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-1024ab4b094f3fa6fdf9.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-1024ab4b094f3fa6fdf9.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-1024ab4b094f3fa6fdf9.js js/index-1024ab4b094f3fa6fdf9.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+ERROR in ./app/javascript/components/ImageWithText/ImageWithText.css (./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./app/javascript/components/ImageWithText/ImageWithText.css)
+Module build failed (from ./node_modules/postcss-loader/src/index.js):
+SyntaxError
+
+(14:1) Unexpected }
+
+  12 |     text-align: center;
+  13 |     /* padding: 20px; */
+> 14 | }
+     | ^
+  15 | .bioH2 {
+  16 |     /* vertical-align: middle; */
+
+ @ ./app/javascript/components/ImageWithText/ImageWithText.css 2:14-167
+ @ ./app/javascript/components/ImageWithText/ImageWithText.js
+ @ ./app/javascript/App.js
+ @ ./app/javascript/packs/index.jsx
+
+
+
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+  Rendered pages/index.html.erb within layouts/application (10642.0ms)
+Completed 200 OK in 10707ms (Views: 10703.0ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:08:25 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 5acbed01db2a08b74487
+Version: webpack 4.44.1
+Time: 5145ms
+Built at: 08/11/2020 10:08:35 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-23cce5cf6fdf530cacdd.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-23cce5cf6fdf530cacdd.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-23cce5cf6fdf530cacdd.js js/index-23cce5cf6fdf530cacdd.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10282.2ms)
+Completed 200 OK in 10353ms (Views: 10348.7ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:09:02 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 504a2b0a9942d5a246b8
+Version: webpack 4.44.1
+Time: 5091ms
+Built at: 08/11/2020 10:09:12 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-da0d08ca2ab3dd899f14.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-da0d08ca2ab3dd899f14.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-da0d08ca2ab3dd899f14.js js/index-da0d08ca2ab3dd899f14.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10275.3ms)
+Completed 200 OK in 10343ms (Views: 10338.9ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:09:28 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 332cf357eb6be259cfa5
+Version: webpack 4.44.1
+Time: 5097ms
+Built at: 08/11/2020 10:09:38 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-14c671e5546b1c7bb646.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-14c671e5546b1c7bb646.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-14c671e5546b1c7bb646.js js/index-14c671e5546b1c7bb646.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10252.1ms)
+Completed 200 OK in 10324ms (Views: 10318.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:10:50 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 56f64d08c5a9c6416156
+Version: webpack 4.44.1
+Time: 5134ms
+Built at: 08/11/2020 10:11:00 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-a173edbdb3c1a0314d73.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-a173edbdb3c1a0314d73.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-a173edbdb3c1a0314d73.js js/index-a173edbdb3c1a0314d73.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10219.4ms)
+Completed 200 OK in 10286ms (Views: 10281.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:11:54 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 060913704a89659f4393
+Version: webpack 4.44.1
+Time: 5025ms
+Built at: 08/11/2020 10:12:05 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-e7bffbd0cc333c95ccb9.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-e7bffbd0cc333c95ccb9.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-e7bffbd0cc333c95ccb9.js js/index-e7bffbd0cc333c95ccb9.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10168.1ms)
+Completed 200 OK in 10249ms (Views: 10239.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:12:32 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 6b140a07c919b121b2ec
+Version: webpack 4.44.1
+Time: 5063ms
+Built at: 08/11/2020 10:12:43 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-12203590f98b23bfe567.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-12203590f98b23bfe567.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-12203590f98b23bfe567.js js/index-12203590f98b23bfe567.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10308.3ms)
+Completed 200 OK in 10433ms (Views: 10422.6ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:14:24 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2020-08-11 22:14:30 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 5d5dee0099d4659a1a56
+Version: webpack 4.44.1
+Time: 5435ms
+Built at: 08/11/2020 10:14:35 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-4a505ff60c53433f7816.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-4a505ff60c53433f7816.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-4a505ff60c53433f7816.js js/index-4a505ff60c53433f7816.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10596.9ms)
+Completed 200 OK in 10696ms (Views: 10691.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:14:38 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/index.html.erb within layouts/application (46.2ms)
+Completed 200 OK in 127ms (Views: 122.1ms)
+
+
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 5d5dee0099d4659a1a56
+Version: webpack 4.44.1
+Time: 4957ms
+Built at: 08/11/2020 10:14:40 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-4a505ff60c53433f7816.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-4a505ff60c53433f7816.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-4a505ff60c53433f7816.js js/index-4a505ff60c53433f7816.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10475.4ms)
+Completed 200 OK in 10543ms (Views: 10540.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:14:48 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/index.html.erb within layouts/application (49.5ms)
+Completed 200 OK in 122ms (Views: 117.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:15:17 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 49b0046ccd5063247530
+Version: webpack 4.44.1
+Time: 5029ms
+Built at: 08/11/2020 10:15:27 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-dd022b7482e23b7060e6.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-dd022b7482e23b7060e6.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-dd022b7482e23b7060e6.js js/index-dd022b7482e23b7060e6.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10242.6ms)
+Completed 200 OK in 10313ms (Views: 10306.8ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:15:28 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered pages/index.html.erb within layouts/application (49.1ms)
+Completed 200 OK in 137ms (Views: 132.4ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:16:38 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2020-08-11 22:16:46 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 475325b292782315e884
+Version: webpack 4.44.1
+Time: 5100ms
+Built at: 08/11/2020 10:16:48 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-4a03b44ef48774a09264.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-4a03b44ef48774a09264.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-4a03b44ef48774a09264.js js/index-4a03b44ef48774a09264.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10211.3ms)
+Completed 200 OK in 10285ms (Views: 10280.6ms)
+
+
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 475325b292782315e884
+Version: webpack 4.44.1
+Time: 5109ms
+Built at: 08/11/2020 10:16:56 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-4a03b44ef48774a09264.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-4a03b44ef48774a09264.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-4a03b44ef48774a09264.js js/index-4a03b44ef48774a09264.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10397.9ms)
+Completed 200 OK in 10480ms (Views: 10472.9ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:21:23 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+Started GET "/" for ::1 at 2020-08-11 22:21:29 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] 
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+[Webpacker] Hash: 912d3daf8fa8eace8e39
+Version: webpack 4.44.1
+Time: 5891ms
+Built at: 08/11/2020 10:21:34 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-586bd74536e414382763.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-586bd74536e414382763.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-586bd74536e414382763.js js/index-586bd74536e414382763.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10995.4ms)
+Completed 200 OK in 11094ms (Views: 11090.0ms)
+
+
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] Hash: 912d3daf8fa8eace8e39
+Version: webpack 4.44.1
+Time: 5058ms
+Built at: 08/11/2020 10:21:39 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-586bd74536e414382763.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-586bd74536e414382763.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-586bd74536e414382763.js js/index-586bd74536e414382763.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10393.7ms)
+Completed 200 OK in 10454ms (Views: 10450.5ms)
+
+
+Started GET "/" for ::1 at 2020-08-11 22:22:09 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in C:/Users/andyt/Personal-Website/public/packs
+[Webpacker] 
+WARNING: We noticed you're using the `useBuiltIns` option without declaring a core-js version. Currently, we assume version 2.x when no version is passed. Since this default version will likely change in future versions of Babel, we recommend explicitly setting the core-js version you are using via the `corejs` option.
+
+You should also be sure that the version you pass to the `corejs` option matches the version specified in your `package.json`'s `dependencies` section. If it doesn't, you need to run one of the following commands:
+
+  npm install --save core-js@2    npm install --save core-js@3
+  yarn add core-js@2              yarn add core-js@3
+
+
+[Webpacker] Hash: 0475cdebfa67cd5d680a
+Version: webpack 4.44.1
+Time: 5605ms
+Built at: 08/11/2020 10:22:20 PM
+                                     Asset      Size       Chunks                         Chunk Names
+    js/application-15ca4ff86ed16e5ac183.js  4.72 KiB  application  [emitted] [immutable]  application
+js/application-15ca4ff86ed16e5ac183.js.map   4.5 KiB  application  [emitted] [dev]        application
+          js/index-746bd5319a0dd4487ece.js  1.08 MiB        index  [emitted] [immutable]  index
+      js/index-746bd5319a0dd4487ece.js.map  1.22 MiB        index  [emitted] [dev]        index
+          js/style-9b6b5a0ab879bb8846d6.js  23.5 KiB        style  [emitted] [immutable]  style
+      js/style-9b6b5a0ab879bb8846d6.js.map  26.7 KiB        style  [emitted] [dev]        style
+                             manifest.json  1.21 KiB               [emitted]              
+              media/images/Me-19aed4a7.JPG  2.85 MiB               [emitted]              
+            media/images/img1-6ebd5c6d.jpg   230 KiB               [emitted]              
+            media/images/logo-117ad09f.jpg  45.3 KiB               [emitted]              
+    media/images/logoPercieve-9ae74a47.png   7.1 KiB               [emitted]              
+Entrypoint application = js/application-15ca4ff86ed16e5ac183.js js/application-15ca4ff86ed16e5ac183.js.map
+Entrypoint index = js/index-746bd5319a0dd4487ece.js js/index-746bd5319a0dd4487ece.js.map
+Entrypoint style = js/style-9b6b5a0ab879bb8846d6.js js/style-9b6b5a0ab879bb8846d6.js.map
+[./app/assets/images/Me.JPG] 74 bytes {index} [built]
+[./app/assets/images/img1.jpg] 76 bytes {index} [built]
+[./app/assets/images/logo.jpg] 76 bytes {index} [built]
+[./app/assets/images/logoPercieve.png] 84 bytes {index} [built]
+[./app/javascript/App.js] 4.2 KiB {index} [built]
+[./app/javascript/packs/application.js] 845 bytes {application} [built]
+[./app/javascript/packs/index.jsx] 727 bytes {index} [built]
+[./app/javascript/packs/style.module.css] 1.32 KiB {style} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/packs/style.module.css] ./node_modules/css-loader/dist/cjs.js??ref--8-1!./node_modules/postcss-loader/src??ref--8-2!./app/javascript/packs/style.module.css 1.67 KiB {style} [built]
+    + 30 hidden modules
+
+  Rendered pages/index.html.erb within layouts/application (10735.5ms)
+Completed 200 OK in 10798ms (Views: 10793.9ms)
+
+
