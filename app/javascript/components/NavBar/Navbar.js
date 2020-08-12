@@ -7,7 +7,7 @@ class Navbar extends React.Component{
         return (
             <div>
                 <nav>
-                    <ul>
+                    <ul className = "ul">
                         {MenuItems.map((item, index) => {
                             return(
                                 //not entirely sure why index is the key

@@ -12,10 +12,10 @@
     },
     "index": {
       "js": [
-        "/packs/js/index-b196ce2727f26b2c2e28.js"
+        "/packs/js/index-5226f0e3a870da8b20b7.js"
       ],
       "js.map": [
-        "/packs/js/index-b196ce2727f26b2c2e28.js.map"
+        "/packs/js/index-5226f0e3a870da8b20b7.js.map"
       ]
     },
     "style": {
@@ -27,8 +27,8 @@
       ]
     }
   },
-  "index.js": "/packs/js/index-b196ce2727f26b2c2e28.js",
-  "index.js.map": "/packs/js/index-b196ce2727f26b2c2e28.js.map",
+  "index.js": "/packs/js/index-5226f0e3a870da8b20b7.js",
+  "index.js.map": "/packs/js/index-5226f0e3a870da8b20b7.js.map",
   "media/images/Me.JPG": "/packs/media/images/Me-19aed4a7.JPG",
   "media/images/img1.jpg": "/packs/media/images/img1-6ebd5c6d.jpg",
   "media/images/logo.jpg": "/packs/media/images/logo-117ad09f.jpg",
