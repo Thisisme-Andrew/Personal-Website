@@ -1,16 +1,21 @@
 import React from 'react'
-import img1 from '../../../assets/images/img1.jpg'
 import './Slide.css'
 
-const Slide = () => {
+const Slide = (props) => {
     return(                     
         <div className="SlideContainer">
             <div className="Image">
-                <img src={img1} style={{"width" : "100%", "height" : "700px"}}/>
+                <img src = {props.src} style={{"width" : "100%", "height" : "700px"}}/>
             </div>
-            <div className="text">Caption Text</div>
+            <div className="text">{props.caption}</div>
         </div>
     )
 }
 
 export default Slide;
+
+
+////      PROPS INDEX      ////
+
+// this.props.src = image source
+// this.props.caption = caption text

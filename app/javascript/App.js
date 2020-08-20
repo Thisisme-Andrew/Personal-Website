@@ -5,6 +5,7 @@ import Slideshow from './components/slideshow/Slideshow'
 import HeaderBar from './components/HeaderBar/HeaderBar'
 import ImageWithText from './components/ImageWithText/ImageWithText'
 
+
 class App extends React.Component{
     render () {
         return (

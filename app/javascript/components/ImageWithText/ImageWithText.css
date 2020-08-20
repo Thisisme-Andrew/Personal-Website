@@ -3,16 +3,19 @@
     width: auto;
     height: auto;
     overflow: hidden;
+    position: relative;
 }
 .image {
     /* text-align: center; */
     width: 50%;
     height: auto;
     float: left;
+    position: relative;
 }
 
 .text {
     text-align: center;
     top: 50%;
+    position: relative;
 
 }

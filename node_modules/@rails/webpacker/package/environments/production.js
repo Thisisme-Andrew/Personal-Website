@@ -13,10 +13,20 @@ module.exports = class extends Base {
       new CompressionPlugin({
         filename: '[path].gz[query]',
         algorithm: 'gzip',
-        cache: true,
         test: /\.(js|css|html|json|ico|svg|eot|otf|ttf|map)$/
       })
     )
+
+    if ('brotli' in process.versions) {
+      this.plugins.append(
+        'Compression Brotli',
+        new CompressionPlugin({
+          filename: '[path].br[query]',
+          algorithm: 'brotliCompress',
+          test: /\.(js|css|html|json|ico|svg|eot|otf|ttf|map)$/
+        })
+      )
+    }
 
     this.plugins.append(
       'OptimizeCSSAssets',
@@ -36,7 +46,7 @@ module.exports = class extends Base {
       optimization: {
         minimizer: [
           new TerserPlugin({
-            parallel: true,
+            parallel: Number.parseInt(process.env.WEBPACKER_PARALLEL, 10) || true,
             cache: true,
             sourceMap: true,
             terserOptions: {
